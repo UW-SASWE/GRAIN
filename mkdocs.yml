@@ -1,8 +1,8 @@
 site_name: GRAIN - Documentation
 site_description: Global Registry of Agricultural Irrigation Networks
-repo_url: https://github.com/SarathUW/GRAIN
+repo_url: https://github.com/UW-SASWE/GRAIN
 theme:
-  name: material #readthedocs 
+  name: material  
   palette:
         # Palette toggle for light mode
     - scheme: default
@@ -19,10 +19,17 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+  features:
+    - navigation.footer
+  
+
 nav:
   - Home: index.md
-  - Getting Started: getting_started.md
-  # - Pipeline: pipeline.md
+  - GRAIN Methodology: grain_workflow.md
+  - Reproducing GRAIN Workflow: reproducing_grain_workflow.md
+  - Data Structure and Schema: pipeline.md
+  - Reading GRAIN Data: reading_grain_data.md
+  - Disclaimer: disclaimer.md
   # - Data Sources: data_sources.md
   # - Model: model.md
   # - Validation: validation.md
@@ -33,6 +40,22 @@ plugins:
   # - mkdocs-jupyter
 markdown_extensions:
   - attr_list
+  - tables
   - admonition
   - toc:
       permalink: true
+
+extra:
+  analytics:
+    provider: google
+    property: G-TVNFWF3VZ0
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SarathUW
+      name: GitHub
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/sarathsuresh96/
+      name: LinkedIn
+copyright: 'Written and maintained by <a href="https://www.linkedin.com/in/sarathsuresh96/" target="_blank"><b>Sarath Suresh</b>, University of Washington</a>'
