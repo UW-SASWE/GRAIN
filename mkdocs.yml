@@ -2,7 +2,7 @@ site_name: GRAIN - Documentation
 site_description: Global Registry of Agricultural Irrigation Networks
 repo_url: https://github.com/SarathUW/GRAIN
 theme:
-  name: material
+  name: material #readthedocs 
   palette:
         # Palette toggle for light mode
     - scheme: default
