@@ -1,0 +1,38 @@
+site_name: GRAIN - Documentation
+site_description: Global Registry of Agricultural Irrigation Networks
+repo_url: https://github.com/SarathUW/GRAIN
+theme:
+  name: material
+  palette:
+        # Palette toggle for light mode
+    - scheme: default
+      primary: lime
+      accent: indigo
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: white
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+nav:
+  - Home: index.md
+  - Getting Started: getting_started.md
+  # - Pipeline: pipeline.md
+  # - Data Sources: data_sources.md
+  # - Model: model.md
+  # - Validation: validation.md
+  # - Examples: examples.md
+plugins:
+  - search
+  # Optional (nice for notebooks):
+  # - mkdocs-jupyter
+markdown_extensions:
+  - attr_list
+  - admonition
+  - toc:
+      permalink: true
