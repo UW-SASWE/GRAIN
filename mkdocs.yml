@@ -25,7 +25,7 @@ theme:
 
 nav:
   - Home: index.md
-  - GRAIN Methodology: grain_workflow.md
+  - GRAIN Methodology: grain_methodology.md
   - Reproducing GRAIN Workflow: reproducing_grain_workflow.md
   - Data Structure and Schema: pipeline.md
   - Reading GRAIN Data: reading_grain_data.md
@@ -42,6 +42,14 @@ markdown_extensions:
   - attr_list
   - tables
   - admonition
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.keys
   - toc:
       permalink: true
 
