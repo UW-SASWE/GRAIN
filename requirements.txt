@@ -1,2 +1,5 @@
 mkdocs
 mkdocs-material
+mkdocs-jupyter
+jupyter
+nbconvert

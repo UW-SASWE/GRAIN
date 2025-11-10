@@ -16,6 +16,9 @@
 
 
 <img src="./images/landing_heropic_1.png" alt="logo" width="1000" height="auto">
+<p style="text-align:right">
+<i>Current Version – <b>v.1.0.</b></i>
+</p>
 
 <h4>What is GRAIN?</h4>
 
@@ -38,13 +41,13 @@ The dataset spans 95 countries and includes over 3.8 million km of canal network
 
 <div class="grid cards" markdown>
 
--   :octicons-workflow-16:{ .lg .middle } __GRAIN Methodology__
+-   :octicons-workflow-16:{ .lg .middle } __Methodology and Datasets Used__
 
     ---
 
-    Details on the end-to-end methodology used to generalte the GRAIN dataset
+    Brief details on the methodology and datasets used to generate the GRAIN dataset.
 
-    [:octicons-arrow-right-24: Methodology](./grain_methodology.md)
+    [:octicons-arrow-right-24:](./grain_methodology.md)
 
 -   :material-database-cog:{ .lg .middle } __Reproduce Workflow__
 
@@ -52,47 +55,35 @@ The dataset spans 95 countries and includes over 3.8 million km of canal network
 
     Step-by-step explanation of how to recreate GRAIN data for a sample region.
 
-    [:octicons-arrow-right-24: Reference]()
+    [:octicons-arrow-right-24:]()
 
--   :material-format-font:{ .lg .middle } __Made to measure__
-
-    ---
-
-    Change the colors, fonts, language, icons, logo and more with a few lines
-
-    [:octicons-arrow-right-24: Customization](#)
-
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+-   :material-table-of-contents:{ .lg .middle } __Dataset Structure__
 
     ---
 
-    Material for MkDocs is licensed under MIT and available on [GitHub]
+    Information on the GRAIN Dataset Attribute Schema. 
 
-    [:octicons-arrow-right-24: License](#)
+    [:octicons-arrow-right-24:](#)
+
+-   :material-language-python:{ .lg .middle } __Reading GRAIN__
+
+    ---
+
+    Instructions on how to read and visualize GRAIN data using Python and QGIS.
+
+    [:octicons-arrow-right-24:](#)
 
 </div>
-<!-- <div class="grid cards" markdown>
-
-- GRAIN Workflow and Data Sources
-- Reproduction of GRAIN Workflow
-- GRAIN Dataset Structure
-- Reading and Vizualising GRAIN data
-- Download links
-
-</div> -->
-Links in the sidebar can be used to access the specific sections. For mobile users, the sidebar might be in the form of a collapsible panel.
-
-
 
 <p style="text-align:left; font-size:0.8rem; margin-top:1.2rem;">
-
+Links to reference paper and the latest version of the GRAIN dataset: <br>
 📘 <b>Reference Paper:</b> 
 <a href="https://essd.copernicus.org/preprints/essd-2025-488/" target="_blank">
 Suresh et&nbsp;al., 2025, <i>Earth System Science Data</i> (in review)
 </a> 
 <br>
 
-💾 <b>Dataset DOI:</b> 
+💾 <b>Dataset (v1.0.0):</b> 
 <a href="https://doi.org/10.5281/zenodo.16786488" target="_blank">
 10.5281/zenodo.16786488
 </a>

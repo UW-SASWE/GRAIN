@@ -6,8 +6,8 @@ theme:
   palette:
         # Palette toggle for light mode
     - scheme: default
-      primary: lime
-      accent: indigo
+      primary: blue
+      accent: green
       toggle:
         icon: material/weather-night 
         name: Switch to dark mode
@@ -20,14 +20,14 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   features:
-    - navigation.footer
+    # - navigation.footer
   
 
 nav:
   - Home: index.md
-  - GRAIN Methodology: grain_methodology.md
-  - Reproducing GRAIN Workflow: reproducing_grain_workflow.md
-  - Data Structure and Schema: pipeline.md
+  - Methodology and Datasets Used: grain_methodology.md
+  - Reproducing GRAIN Workflow: test_jupyter.ipynb
+  - Data Structure and Schema: attribute_schema.md
   - Reading GRAIN Data: reading_grain_data.md
   - Disclaimer: disclaimer.md
   # - Data Sources: data_sources.md
@@ -37,7 +37,7 @@ nav:
 plugins:
   - search
   # Optional (nice for notebooks):
-  # - mkdocs-jupyter
+  - mkdocs-jupyter
 markdown_extensions:
   - attr_list
   - tables
@@ -66,4 +66,4 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/sarathsuresh96/
       name: LinkedIn
-copyright: 'Written and maintained by <a href="https://www.linkedin.com/in/sarathsuresh96/" target="_blank"><b>Sarath Suresh</b>, University of Washington</a>'
+copyright: 'Written and maintained by <a href="https://www.linkedin.com/in/sarathsuresh96/" target="_blank"><b>Sarath Suresh</b>, </a> SASWE Labs, University of Washington'
