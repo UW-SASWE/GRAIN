@@ -54,7 +54,7 @@ The dataset spans 95 countries and includes over 3.8 million km of canal network
 
     Step-by-step explanation of how to recreate GRAIN data for a sample region.
 
-    [:octicons-arrow-right-24:]()
+    [:octicons-arrow-right-24:](./reproduce_workflow.md)
 
 -   :material-table-of-contents:{ .lg .middle } __Dataset Structure__
 
@@ -62,7 +62,7 @@ The dataset spans 95 countries and includes over 3.8 million km of canal network
 
     Information on the GRAIN Dataset Attribute Schema. 
 
-    [:octicons-arrow-right-24:](#)
+    [:octicons-arrow-right-24:](./attribute_schema.md)
 
 -   :material-language-python:{ .lg .middle } __Reading GRAIN__
 
@@ -70,7 +70,7 @@ The dataset spans 95 countries and includes over 3.8 million km of canal network
 
     Instructions on how to read and visualize GRAIN data using Python and QGIS.
 
-    [:octicons-arrow-right-24:](#)
+    [:octicons-arrow-right-24:](./reading_grain.md)
 
 <br>Codebase:
 <a href="https://github.com/UW-SASWE/GRAIN/" target="_blank"><b>GRAIN GitHub Page</b></a><br>
