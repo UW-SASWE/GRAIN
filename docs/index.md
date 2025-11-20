@@ -27,8 +27,7 @@
 GRAIN (Global Registry of Agricultural Irrigation Networks) provides an open, globally consistent map of surface irrigation canals derived from OpenStreetMap (OSM) and enhanced with machine learning.
 The dataset spans 95 countries and includes over 3.8 million km of canal networks, classified by use type (agricultural, urban, navigation) and validated against regional inventories.<br>  
 
-<br>This website serves as a documentation portal for the codebase present at the
-<a href="https://github.com/UW-SASWE/GRAIN/" target="_blank"><b>GRAIN GitHub Page</b></a>, and contains information on the following:
+<br>This website serves as a documentation portal for GRAIN, and contains information on the following:
 <!-- 
 <ul>
   <li>GRAIN Workflow and Data Sources</li>
@@ -73,6 +72,8 @@ The dataset spans 95 countries and includes over 3.8 million km of canal network
 
     [:octicons-arrow-right-24:](#)
 
+<br>Codebase:
+<a href="https://github.com/UW-SASWE/GRAIN/" target="_blank"><b>GRAIN GitHub Page</b></a><br>
 </div>
 
 <p style="text-align:left; font-size:0.8rem; margin-top:1.2rem;">

@@ -1,0 +1,32 @@
+name: grain_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - tqdm
+  - joblib
+  - scikit-learn
+
+  # Geospatial stack
+  - geopandas
+  - shapely
+  - pyproj
+  - rasterio
+  - pyrosm
+
+  # Required for rasterio & geopandas compatibility
+  - fiona
+  - gdal
+  - proj
+  - libspatialindex     
+
+  # Additional utilities
+  - pip
+  - pip:
+      - pyarrow     # often required for GeoParquet & modern geopandas
