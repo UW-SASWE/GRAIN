@@ -31,7 +31,7 @@ nav:
   - Methodology and Datasets Used: grain_methodology.md
   - Reproducing GRAIN Workflow: reproduce_workflow.md
   - Data Structure and Schema: attribute_schema.md
-  - Reading GRAIN Data: reading_grain_data.md
+  - Reading GRAIN Data: reading_grain.md
   - Disclaimer: disclaimer.md
   # - Data Sources: data_sources.md
   # - Model: model.md
