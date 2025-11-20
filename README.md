@@ -1,5 +1,7 @@
 <img src="./assets/images/gitRepo_cover.png" alt="logo" width="1000" height="auto">
 
+
+
 ## Global Registry of Agricultural Irrigation Networks
 GRAIN is an OpenStreetMap (OSM) based dataset of the world's irrigation canals. OSM country-scale data is retrieved from [Geofrabrik.de](https://www.geofabrik.de/), processed using [OSMium CLI Toolkit](https://osmcode.org/osmium-tool/), and [QGIS](https://qgis.org/) to filter for waterways and to convert the OSM PBF file to the lightweight cloud optimised GeoParquet format. 
 
@@ -10,30 +12,9 @@ GRAIN is made available as country level files in GeoParquet and ESRI shapefile 
 
 The methodology and validation is described in : [Suresh, S., Hossain, F., Mishra, V., Hossain, N., 2025. GRAIN - Global Registry of Agricultural Canal Networks, Earth System Science Data](https://www.earth-system-science-data.net/) <b style="color:orange;">*Submitted for review</b>
 
-GRAIN workflow: <br>
-<img src="./assets/images/fig_workflow.png" alt="logo" width="1000" height="auto">
-
-
-### Handling GRAIN GeoParquet files
-
-The GRAIN dataset is distributed in **GeoParquet** format for efficient storage and fast I/O operations.  
-We recommend using [GeoPandas](https://geopandas.org/) in Python or [QGIS](https://qgis.org/) for viewing and analysis.
-
-#### Example: Reading in Python
-```python
-import geopandas as gpd
-
-# Load a GRAIN country file
-grain_gdf = gpd.read_parquet("italy_GRAIN_v.1.0.parquet")
-
-# Inspect the first few rows
-print(grain_gdf.head())
-
-# Filter for irrigation canals
-irrigation_canals = grain_gdf[grain_gdf["canal_use"] == "Agricultural"]
-```
-
----
+### Documentation
+Users are encouraged to refer to the
+[GRAIN Documentation](https://grain-canals.readthedocs.io/en/latest/) website for information on reading and visualizing GRAIN, general methodology, recreating GRAIN data, GRAIN attribute schema etc.
 
 ### Issues and Feedback
 
