@@ -62,6 +62,11 @@ and canals (red). Panels (a–b) show representative examples; panels (c–g)
 illustrate the statistical contrasts in key features used for model training.
 </div>
 
-
+<p style="text-align:left; font-size:0.8rem; margin-top:1.2rem;">
+Further details on methodology can be found in the reference paper: <br>
+📘 <b>Reference Paper:</b> 
+<a href="https://essd.copernicus.org/preprints/essd-2025-488/" target="_blank">
+Suresh et&nbsp;al., 2025, <i>Earth System Science Data</i> (in review)
+</a> 
 
 
