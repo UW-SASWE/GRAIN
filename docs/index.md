@@ -20,6 +20,9 @@
 <i>Current Version – <b>v.1.0.</b></i>
 </p>
 
+!!! success ""
+    <span style="font-size:0.8rem;"><span style="color:#c00000; font-weight:700;">NEW:</span> The <strong>[GRAIN Visualizer](https://sureshsarath.github.io/grain_visualizer/)</strong> website is now LIVE.</span>
+
 <h4>What is GRAIN?</h4>
 
 <div class="grain-intro">
@@ -90,8 +93,3 @@ Suresh et&nbsp;al., 2025, <i>Earth System Science Data</i> (in review)
 </a>
 
 </p>
-
-
-
-
-
