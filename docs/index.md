@@ -21,7 +21,7 @@
 </p>
 
 !!! success ""
-    <span style="font-size:0.8rem;"><span style="color:#c00000; font-weight:700;">NEW:</span> The <strong>[GRAIN Visualizer](https://sureshsarath.github.io/grain_visualizer/)</strong> website is now LIVE.</span>
+    <span style="font-size:0.8rem;"><span style="color:#c00000; font-weight:700;">NEW:</span> The <strong>[GRAIN Visualizer](https://uw-saswe.github.io/GRAIN-Visualizer/)</strong> website is now LIVE.</span>
 
 <h4>What is GRAIN?</h4>
 
