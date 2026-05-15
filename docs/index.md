@@ -82,8 +82,8 @@ The dataset spans 95 countries and includes over 3.8 million km of canal network
 <p style="text-align:left; font-size:0.8rem; margin-top:1.2rem;">
 Links to reference paper and the latest version of the GRAIN dataset: <br>
 📘 <b>Reference Paper:</b> 
-<a href="https://essd.copernicus.org/preprints/essd-2025-488/" target="_blank">
-Suresh et&nbsp;al., 2025, <i>Earth System Science Data</i> (in review)
+<a href="https://doi.org/10.5194/essd-18-1855-2026" target="_blank">
+Suresh et&nbsp;al., 2026, <i>Earth System Science Data</i>
 </a> 
 <br>
 

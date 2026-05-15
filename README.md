@@ -10,7 +10,7 @@ A Random Forest classifier, trained on 20,000 samples of rivers and canal geomet
 Dataset is available for download at [Zenodo - GRAIN v.1.0](https://doi.org/10.5281/zenodo.16786487) <br>
 GRAIN is made available as country level files in GeoParquet and ESRI shapefile formats. All GRAIN files are projected to EPSG:4326, based on the WGS-84 datum. Users are recommended to download the GeoParquet files due to the significant smaller file size.
 
-The methodology and validation is described in : [Suresh, S., Hossain, F., Mishra, V., Hossain, N., 2025. GRAIN - Global Registry of Agricultural Canal Networks, Earth System Science Data](https://www.earth-system-science-data.net/) <b style="color:orange;">*Submitted for review</b>
+The methodology and validation is described in : [Suresh, S., Hossain, F., Mishra, V., Hossain, N., 2026. GRAIN - Global Registry of Agricultural Canal Networks, Earth System Science Data](https://doi.org/10.5194/essd-18-1855-2026)
 
 ### Documentation
 Users are encouraged to refer to the
