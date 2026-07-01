@@ -66,7 +66,7 @@ illustrate the statistical contrasts in key features used for model training.
 Further details on methodology can be found in the reference paper: <br>
 📘 <b>Reference Paper:</b> 
 <a href="https://essd.copernicus.org/preprints/essd-2025-488/" target="_blank">
-Suresh et&nbsp;al., 2025, <i>Earth System Science Data</i> (in review)
+Suresh et&nbsp;al., 2026, <i>Earth System Science Data</i>
 </a> 
 
 
