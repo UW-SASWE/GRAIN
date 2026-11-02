@@ -28,6 +28,7 @@ theme:
 
 nav:
   - Home: index.md
+  - GRAIN Visualizer: https://sureshsarath.github.io/grain_visualizer/
   - Methodology and Datasets Used: grain_methodology.md
   - Reproducing GRAIN Workflow: reproduce_workflow.md
   - Data Structure and Schema: attribute_schema.md
