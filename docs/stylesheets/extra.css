@@ -1,0 +1,110 @@
+/* Hover / accent color: UW purple instead of the theme's green */
+[data-md-color-accent="custom"] {
+  --md-accent-fg-color: #4b2e83;
+  --md-accent-fg-color--transparent: rgba(75, 46, 131, 0.1);
+  --md-accent-bg-color: #fff;
+  --md-accent-bg-color--light: rgba(255, 255, 255, 0.7);
+}
+
+/* Text about 10% smaller than the theme defaults (headings scale with .md-typeset) */
+.md-typeset {
+  font-size: 0.72rem;
+}
+.md-nav {
+  font-size: 0.64rem;
+}
+.md-typeset table:not([class]),
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 0.58rem;
+}
+
+/* Black header bar in the style of NASA Earthdata, in both light and dark mode */
+.md-header {
+  --md-primary-fg-color: #000;
+  --md-primary-bg-color: #fff;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Header is 2.8rem tall; the title and sidebar offsets below follow this height */
+.md-header__inner {
+  height: 2.8rem;
+}
+
+/* UW logo */
+.md-header__button.md-logo img {
+  height: 1.4rem;
+  width: auto;
+}
+
+/* Site title: large bold "GRAIN", regular-weight "Documentation"
+   (the two parts are split in overrides/partials/header.html) */
+.md-header__title {
+  height: 2.8rem;
+  line-height: 2.8rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+}
+.md-header .grain-title-name {
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+.md-header .grain-title-sep,
+.md-header .grain-title-sub {
+  font-weight: 400;
+}
+
+/* Search box on the black bar */
+.md-header .md-search__form {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+.md-header .md-search__form:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Hide the site name at the top of the left sidebar on wide screens
+   (phones keep it, it's the title bar of the ☰ drawer) */
+@media screen and (min-width: 76.25em) {
+  .md-nav--primary > .md-nav__title {
+    display: none;
+  }
+}
+
+/* Left sidebar and table of contents stick just below the header */
+.md-sidebar {
+  top: 2.8rem;
+}
+
+/* Footer stays pinned to the bottom of the window while scrolling */
+.md-footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 3;
+  box-shadow: 0 -0.1rem 0.4rem rgba(0, 0, 0, 0.15);
+}
+
+/* Compact footer (about 1.75rem tall) */
+.md-footer-meta__inner {
+  padding: 0.1rem;
+}
+.md-copyright {
+  padding: 0.2rem 0;
+  font-size: 0.56rem;
+}
+.md-social {
+  padding: 0.2rem 0;
+}
+.md-social__link {
+  width: 1.15rem;
+  height: 1.15rem;
+  line-height: 1.15rem;
+}
+.md-social__link svg {
+  max-height: 0.65rem;
+}
+
+/* Author name in the footer copyright line */
+.md-copyright a b {
+  color: #fff;
+}
